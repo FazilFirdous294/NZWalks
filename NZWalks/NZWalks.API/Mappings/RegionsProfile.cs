@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
 
-namespace NZWalks.API.Profiles
+namespace NZWalks.API.Mappings
 {
-    public class RegionsProfile:Profile
+    public class RegionsProfile : Profile
     {
         public RegionsProfile()
         {
             CreateMap<Models.Domain.Region, Models.DTO.Region>().ReverseMap();
-            
+
         }
     }
 }
